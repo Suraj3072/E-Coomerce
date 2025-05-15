@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "mini-ecommerce-app",
+    "slug": "mini-ecommerce-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "package": "com.yourcompany.myapp",
+        "versionCode": 1
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.surajshinde3072.miniecommerceapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e3f54449-7792-4e51-8f99-c3d4cc0848dc"
+      }
+    }
+  }
+}
